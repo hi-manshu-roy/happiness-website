@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nitin Meditation</title>
+	<style>
+	.expandable-button {
+  position: fixed;
+  top: 20px;
+  left: 20px;
+  width: 75px;
+  height: 75px;
+  background-color: #800080;
+  border-radius: 100px;
+  z-index: 9999;
+  cursor: pointer;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.expandable-button::before {
+  content: "OOOOOs";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) rotate(0deg);
+  border-style: solid;
+  border-width: 0 3px 3px 0;
+  border-color: transparent #ffffff transparent transparent;
+  width: 10px;
+  height: 10px;
+  transition: transform 0.3s ease;
+}
+
+.expandable-button:hover::before {
+  transform: translate(-50%, -50%) rotate(135deg);
+}
+
+
+    .expandable-bar {
+      position: fixed;
+      top: 20px;
+      left: 100px;
+      background-color: #800080;
+      border-radius: 4px;
+      padding: 20px;
+      display: none;
+      z-index: 9998;
+      color: #ffffff;
+    }
+
+    .expandable-bar a {
+      display: block;
+      margin-bottom: 40px;
+      color: #ffffff;
+      text-decoration: none;
+    }
+    body {
+            background-color: #333;
+            color: #fff;
+        }
+
+        header {
+            background-color: #222;
+            padding: 20px;
+        }
+
+        main {
+            padding: 20px;
+        }
+
+        .video-wrapper {
+            overflow-x: auto;
+            max-width: 1100px;
+            margin: 0 auto;
+        }
+
+        .video-container {
+            display: flex;
+            flex-wrap: nowrap;
+            grid-gap: 20px;
+        }
+
+        .video-container iframe {
+            width: 560px;
+            height: 315px;
+        }
+
+   .button-container {
+  display: flex;
+  gap: 40px;
+  justify-content: center; /* Add this line to horizontally center the buttons */
+  align-items: center; /* Add this line to vertically center the buttons */
+}
+
+.button {
+  display: inline-block;
+  padding: 10px 40px;
+  background-color: #FF0000;
+  color: white;
+  text-decoration: none;
+  border-radius: 10px;
+}
+
+
+  </style>
+</head>
+<body style="background-color: #FFFFFF">
+<div class="expandable-button" onclick="toggleExpandableBar()"></div>
+  <div class="expandable-bar" id="expandableBar">
+    <a href="https://www.amity.edu/aibs/amity-rekhi-happiness.asp" style="text-align: center;">HAPPINESS CENTER</a>
+    <a href="https://amity.edu/"style="text-align: center;">AMITY UNIVERSITY </a>
+    <a href="#"style="text-align: center;">UPLOAD</a>
+  </div>
+
+  <script>
+    function toggleExpandableBar() {
+      var expandableBar = document.getElementById("expandableBar");
+      if (expandableBar.style.display === "none") {
+        expandableBar.style.display = "block";
+      } else {
+        expandableBar.style.display = "none";
+      }
+    }
+  </script>
+  <header>
+	<ul class="button-container">
+
+    <li><a href="#SOUND" class="button">MEDITATION MANTRAS</a></li>
+    <li><a href="#VIDEO" class="button">MEDITATION TUTORIALS</a></li>
+    <li><a href="#ABOUT" class="button">ABOUT</a></li>
+    <li><a href="#CONTACT" class="button">CONTACT</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+	<section>
+      <h1 style="background-color: #888888; padding: 20px; text-align: center">POWER OF MEDITATION BY DR. NITIN ARORA</h1>
+      <p style="color: #000000">This website is a collection of resources for meditation. You can find information on different types of meditation, as well as guided meditations and songs to help you relax and focus.</p>
+    </section>
+    <img src="https://drive.google.com/uc?export=view&id=1FW2f1G-qsMfu77ONlS2OcCb3Zpe-8-W7" style="width: 100%; height: 600px;">
+
+    <nav>
+      
+    
+    <section id="ABOUT">
+      <h2 style="background-color: #888888; padding: 20px; text-align: center">About Nitin Meditation</h2>
+      <p style="color: #000000">Nitin Meditation is a website created by Nitin, a meditation teacher and practitioner. Nitin has been meditating for over years and has a passion for helping others learn and benefit from the practice.</p>
+      <p style="color: #000000">Nitin offers a variety of meditation classes and workshops, both online and in person. He also has a blog where he shares tips and advice on meditation.</p>
+    </section>
+    
+
+
+  <section id="SOUND" style="background-color: #000000; padding: 20px;">
+            <h2 style="background-color: #888888; padding: 20px; text-align: center">MEDITATION MANTRAS</h2>
+            <div class="video-wrapper">
+                <div class="video-container">
+                    <div>
+   					 <video width="560" height="315" controls>
+        					<source src="https://drive.google.com/uc?export=view&id=1fh0wGS6KW3ixaD96V9whh_ia8oAWWgfP" type="video/mp4">
+        							Your browser does not support the video tag.
+    									</video>
+   					 		<p>Description for the video</p>
+				</div>
+                    <div>
+   					 <video width="560" height="315" controls>
+        					<source src="https://drive.google.com/uc?export=view&id=1fXDC2lNLAcFh6p505Hrnb9OhyQoIiE-Y" type="video/mp4">
+        							Your browser does not support the video tag.
+    									</video>
+   					 		<p>Description for the video</p>
+				</div>
+
+                       
+        </section>
+
+<section>
+      <h2 style="background-color: #FFFFFF; padding: 20px; text-align: center">_______________________________________________________________</h2>
+      
+    </section>
+
+
+    <section id="VIDEO" style="background-color: #000000; padding: 20px;">
+            <h2 style="background-color: #888888; padding: 20px; text-align: center">TUTORIAL VIDEOES</h2>
+            <div class="video-wrapper">
+                <div class="video-container">
+                    <div>
+   					 <video width="560" height="315" controls>
+        					<source src="https://drive.google.com/uc?export=view&id=1fFZovXM8L8oYdkfQzmjc43cnpIDBvx8I" type="video/mp4">
+        							Your browser does not support the video tag.
+    									</video>
+   					 		<p>Description for the video</p>
+				</div>
+                    <div>
+   					 <video width="560" height="315" controls>
+        					<source src="https://drive.google.com/uc?export=view&id=1eeZ_4EmGQPybZ2wBN3OU4SAzC-AbohdC" type="video/mp4">
+        							Your browser does not support the video tag.
+    									</video>
+   					 		<p>Description for the video</p>
+				</div>
+
+                       <div>
+   					 <video width="560" height="315" controls>
+        					<source src="https://drive.google.com/uc?export=view&id=1fERak_lumjKmNSok4n6wUFFJQqNpH6oD" type="video/mp4">
+        							Your browser does not support the video tag.
+    									</video>
+   					 		<p>Description for the video</p>
+				</div>
+				<div>
+   					 <video width="560" height="315" controls>
+        					<source src="https://drive.google.com/uc?export=view&id=1evh1N5i_hIhl17yQznOgn5g3z-0Ebs1F" type="video/mp4">
+        							Your browser does not support the video tag.
+    									</video>
+   					 		<p>Description for the video</p>
+				</div>
+
+
+
+<div>
+   					 <video width="560" height="315" controls>
+        					<source src="https://drive.google.com/uc?export=view&id=1e_kKaJygSpWOXtLzNKSLUyHuj9wNq_LL" type="video/mp4">
+        							Your browser does not support the video tag.
+    									</video>
+   					 		<p>Description for the video</p>
+				</div>
+                    <div>
+   					 <video width="560" height="315" controls>
+        					<source src="https://drive.google.com/uc?export=view&id=1f5y4QUXRnWCmUyog8IVZ2o3VK8vdqzmN" type="video/mp4">
+        							Your browser does not support the video tag.
+    									</video>
+   					 		<p>Description for the video</p>
+				</div>
+
+                       <div>
+   					 <video width="560" height="315" controls>
+        					<source src="https://drive.google.com/uc?export=view&id=1f2U2ap2N4mqJ3zOzuGCRGLKGCCRopzzx" type="video/mp4">
+        							Your browser does not support the video tag.
+    									</video>
+   					 		<p>Description for the video</p>
+				</div>
+				<div>
+   					 <video width="560" height="315" controls>
+        					<source src="https://drive.google.com/uc?export=view&id=1ekKxU5-ML5TCFg3kgbAVfZLedqXdqZZJ" type="video/mp4">
+        							Your browser does not support the video tag.
+    									</video>
+   					 		<p>Description for the video</p>
+				</div>
+
+
+
+<div>
+   					 <video width="560" height="315" controls>
+        					<source src="https://drive.google.com/uc?export=view&id=1ekwMuV9S8cAb8yjKAC-0LbpDiof9s5qI" type="video/mp4">
+        							Your browser does not support the video tag.
+    									</video>
+   					 		<p>Description for the video</p>
+				</div>
+                    <div>
+   					 <video width="560" height="315" controls>
+        					<source src="https://drive.google.com/uc?export=view&id=1epjexLFCQPavaDI3RcK0ym0fN46FvH8c" type="video/mp4">
+        							Your browser does not support the video tag.
+    									</video>
+   					 		<p>Description for the video</p>
+				</div>
+
+                       <div>
+   					 <video width="560" height="315" controls>
+        					<source src="https://drive.google.com/uc?export=view&id=1ej_FtO9nFixU_ag_vk4Gn9kCpuQGfC49" type="video/mp4">
+        							Your browser does not support the video tag.
+    									</video>
+   					 		<p>Description for the video</p>
+				</div>
+				<div>
+   					 <video width="560" height="315" controls>
+        					<source src="https://drive.google.com/uc?export=view&id=1et2f1FtIPwgUCWmMtVHRU9tFgevUMf1Z" type="video/mp4">
+        							Your browser does not support the video tag.
+    									</video>
+   					 		<p>Description for the video</p>
+				</div>
+        </section>
+    <section id="CONTACT">
+      <h2 style="background-color: #888888; padding: 20px; text-align: center">Contact</h2>
+      <p style="color: #000000;text-align: center">If you have any questions or comments, please contact us at <a href="#">himanshuroy.242@gmail.com</a>.</p>
+    </section>
+  </main>
+  <footer>
+    <p style="background-color: #888888; padding: 20px; text-align: center">Copyright &copy; 2023 Nitin Meditation</p>
+  </footer>
+</body>
